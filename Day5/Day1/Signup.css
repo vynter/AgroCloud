@@ -42,12 +42,12 @@
     color: #333;
   }
   .head {
-    text-align: center; /* Align the text to the center */
-    font-size: 44px; /* Adjust the font size as needed */
-    margin-top: 20px; /* Add margin on top */ /* Add margin on bottom */
-    color: #151010; /* Set the text color */
-    text-transform: uppercase; /* Transform text to uppercase */
-    font-weight: bold; /* Apply bold font weight */
+    text-align: center; 
+    font-size: 44px;
+    margin-top: 20px;
+    color: #151010;
+    text-transform: uppercase;
+    font-weight: bold; 
   }
 
   
