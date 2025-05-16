@@ -3,18 +3,16 @@ import '/src/assets/css/Login.css'
 import { useNavigate } from 'react-router-dom';
 
 function Login() {
-  // State variables to store username and password
+
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate()
 
-  // Function to handle form submission
+  
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Here you can add logic to handle the form submission, such as sending data to a server
     console.log('Username:', username);
     console.log('Password:', password);
-    // Clear input fields after submission
     setUsername('');
     setPassword('');
 };
