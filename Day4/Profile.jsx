@@ -25,8 +25,8 @@ const Profile = () => {
     setEditing(false);
   };
   const handleGoBack = () => {
-    // Redirect to another page when the arrow back icon is pressed
-    navigate('/home'); // Update '/other-page' with the actual path
+    
+    navigate('/home'); 
   };
   return (
     <div>
