@@ -1,24 +1,23 @@
 import  { useState } from 'react';
-import '../../assets/css/Signup.css'; // Import CSS file for styling
+import '../../assets/css/Signup.css'; 
 import { useNavigate } from 'react-router-dom';
 
 function Signup() {
-  // State variables to store user information
+ 
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
   const [password, setPassword] = useState('');
 
   const navigate = useNavigate()
-  // Function to handle form submission
+  
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Here you can add logic to handle the form submission, such as sending data to a server
+    
     console.log('First Name:', firstName);
     console.log('Last Name:', lastName);
     console.log('Phone Number:', phoneNumber);
     console.log('Password:', password);
-    // Clear input fields after submission
     setFirstName('');
     setLastName('');
     setPhoneNumber('');
