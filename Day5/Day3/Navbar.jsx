@@ -1,13 +1,12 @@
-// Navbar.js
+
 import '../../assets/css/Navbar.css';
-import logoImg from '../../assets/images/grow.png'; // Import your logo image
+import logoImg from '../../assets/images/grow.png'; 
 
 function Navbar() {
   return (
     <nav className="navbar" >
       <div className="navbar-container">
       <img src={logoImg} alt="Logo" className="navbar-logo-img" />
-        {/* <h1 className="navbar-logo">Your Logo</h1> */}
         <ul className="nav-menu">
           <li className="nav-item">
             <a href="/" className="nav-links">Home</a>
