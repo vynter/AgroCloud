@@ -1,4 +1,4 @@
-// Footer.js
+
 
 
 import '/src/assets/css/Footer.css';
