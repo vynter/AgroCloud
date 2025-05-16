@@ -1,9 +1,8 @@
-// Home.js
+
 
 
 import Navbar from "./Navbar";
-import "/src/assets/css/Hero.css"; // Import your CSS file
-
+import "/src/assets/css/Hero.css"; 
 
 const Hero = () => {
   console.log("He");
