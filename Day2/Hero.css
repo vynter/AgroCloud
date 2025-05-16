@@ -1,4 +1,4 @@
-/* Home.css */
+
 
 
 .home-container {
@@ -6,7 +6,7 @@
   }
   
   .gif-section {
-    width: 25%; /* Adjust as needed */
+    width: 25%; 
     /* height: 100vh; */
     /* background-image: url('/src/assets/images/.gif'); */
     /* background-size: cover;
